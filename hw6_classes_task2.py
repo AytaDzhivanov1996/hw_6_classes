@@ -23,6 +23,7 @@ def get_set_delete(person):
     del person.name
     return person
 
+
 def main():
     person = Person("Ivan", "123567 Pushkinskaya ul.", "ivan@mail.ru")
     person_test = PersonTest("Ivan", "123567 Pushkinskaya ul.", "ivan@mail.ru")
